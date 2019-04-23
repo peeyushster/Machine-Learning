@@ -16,7 +16,7 @@ After running this script, the trained model should be saved for use with the ev
 
 Sample pipeline consists of the following steps.
 
-- Select out the 20 attribute columns labeled `mfcc_00, mfcc_01, ..., mfcc_19`
+- Select out the 20 attribute columns labeled `m_00, m_01, ..., m_19`
 - Normalize the features using a `StandardScaler`
 - Fit a K-means clustering model to the standardized data with K=100.
 
@@ -36,7 +36,7 @@ Script implemented a supervised learning pipeline for multi-class classification
 The target class is stored in the `genre` column.  
 
 Steps taken to implement supervised training -
-- Select and standardize the `mfcc_*` features 
+- Select and standardize the `m*_*` features 
 - Encode the `genre` field as a target label using a `StringIndexer` and store the result as `label`.
 - Define a multi-class logistic regression classifier.
 - Optimize the hyper-parameters (elastic net parameter and regularization weight) of your model by 5-fold cross-validation on the training set.  Use at least 5 distinct values for each parameter in your grid.
