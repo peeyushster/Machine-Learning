@@ -1,6 +1,6 @@
 # PySpark ML Library
 
-### Unsupervised Training: unsupervised_train.py
+### Unsupervised Training (code in unsupervised_train.py)
 
 The training script takes two command-line arguments:
 
