@@ -1,0 +1,133 @@
+# Part 1 results
+Silhouette with squared euclidean distance = -0.2256
+
+Breif explanation on Silhouette evaluation metric-
+The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters. If most objects have a high value, then the clustering configuration is appropriate. If many points have a low or negative value, then the clustering configuration may have too many or too few clusters.
+
+# Part 2 results
+(a) Results are based on entire training data. The model took 7.5 hours to get trained on Dumbo
+Summary Stats
+Precision = 0.4193327329645354
+Recall = 0.4193327329645354
+F1 Score = 0.4193327329645354
+
+
+Weighted recall = 0.4193327329645353
+Weighted precision = 0.36927623249353575
+Weighted F(1) Score = 0.3533200897469911
+
+
+Class 0.0 precision = 0.4708947702685342
+Class 0.0 recall = 0.78612898353723
+Class 0.0 F1 Measure = 0.5889849352224751
+Class 1.0 precision = 0.33393988721585954
+Class 1.0 recall = 0.4613734939759036
+Class 1.0 F1 Measure = 0.3874473036322552
+Class 2.0 precision = 0.4211388702129649
+Class 2.0 recall = 0.42065376917945296
+Class 2.0 F1 Measure = 0.42089617992128
+Class 3.0 precision = 0.3292
+Class 3.0 recall = 0.01973621103117506
+Class 3.0 F1 Measure = 0.03723981900452488
+Class 4.0 precision = 0.3062573069689422
+Class 4.0 recall = 0.0823087431693989
+Class 4.0 F1 Measure = 0.12974707396121585
+Class 5.0 precision = 0.0
+Class 5.0 recall = 0.0
+Class 5.0 F1 Measure = 0.0
+Class 6.0 precision = 0.26331360946745563
+Class 6.0 recall = 0.0037791932059447982
+Class 6.0 F1 Measure = 0.00745144005358339
+Class 7.0 precision = 0.5026178010471204
+Class 7.0 recall = 0.003033175355450237
+Class 7.0 F1 Measure = 0.006029961370559969
+Class 8.0 precision = 0.35337859683155515
+Class 8.0 recall = 0.08233521657250471
+Class 8.0 F1 Measure = 0.13355327468230696
+Class 9.0 precision = 0.0
+Class 9.0 recall = 0.0
+Class 9.0 F1 Measure = 0.0
+Class 10.0 precision = 0.7013910355486862
+Class 10.0 recall = 0.6875757575757576
+Class 10.0 F1 Measure = 0.6944146901300688
+Class 11.0 precision = 0.0
+Class 11.0 recall = 0.0
+Class 11.0 F1 Measure = 0.0
+Class 12.0 precision = 0.0
+Class 12.0 recall = 0.0
+Class 12.0 F1 Measure = 0.0
+Class 13.0 precision = 0.0
+Class 13.0 recall = 0.0
+Class 13.0 F1 Measure = 0.0
+Class 14.0 precision = 0.0
+Class 14.0 recall = 0.0
+Class 14.0 F1 Measure = 0.0
+Class 15.0 precision = 0.0
+Class 15.0 recall = 0.0
+Class 15.0 F1 Measure = 0.0
+
+
+Explanation of the results -
+Overall Precision, Recall and F-1 measure are all same and equal to 0.4193327329645354. There are a couple of classes for which Precision, Recall and F-1 measure are equal to zero that could occur if classes are rare and are not predicted by classifier.
+
+(b) Results are based on 10% of training data. The model took 50 minutes to get trained on Dumbo
+
+Summary Stats
+Precision = 0.41936103606501135
+Recall = 0.41936103606501135
+F1 Score = 0.41936103606501135
+
+
+Weighted recall = 0.41936103606501135
+Weighted precision = 0.3686757510407269
+Weighted F(1) Score = 0.35351623708830215
+
+
+Class 0.0 precision = 0.47078968792401626
+Class 0.0 recall = 0.7860715903942003
+Class 0.0 F1 Measure = 0.5888866259334692
+Class 1.0 precision = 0.33386217498675486
+Class 1.0 recall = 0.4631285140562249
+Class 1.0 F1 Measure = 0.38801229456485353
+Class 2.0 precision = 0.4225488343635562
+Class 2.0 recall = 0.41772292639537467
+Class 2.0 F1 Measure = 0.42012202213216676
+Class 3.0 precision = 0.3294073658627781
+Class 3.0 recall = 0.021127098321342925
+Class 3.0 F1 Measure = 0.03970748966185535
+Class 4.0 precision = 0.30708186840783525
+Class 4.0 recall = 0.08352459016393443
+Class 4.0 F1 Measure = 0.1313285361400494
+Class 5.0 precision = 0.0
+Class 5.0 recall = 0.0
+Class 5.0 F1 Measure = 0.0
+Class 6.0 precision = 0.27640156453715775
+Class 6.0 recall = 0.004501061571125266
+Class 6.0 F1 Measure = 0.008857877034282492
+Class 7.0 precision = 0.45569620253164556
+Class 7.0 recall = 0.0034123222748815166
+Class 7.0 F1 Measure = 0.006773920406435224
+Class 8.0 precision = 0.35109403708034076
+Class 8.0 recall = 0.0791713747645951
+Class 8.0 F1 Measure = 0.12920674923932754
+Class 9.0 precision = 0.0
+Class 9.0 recall = 0.0
+Class 9.0 F1 Measure = 0.0
+Class 10.0 precision = 0.6929520072441896
+Class 10.0 recall = 0.6956818181818182
+Class 10.0 F1 Measure = 0.6943142295478603
+Class 11.0 precision = 0.0
+Class 11.0 recall = 0.0
+Class 11.0 F1 Measure = 0.0
+Class 12.0 precision = 0.0
+Class 12.0 recall = 0.0
+Class 12.0 F1 Measure = 0.0
+Class 13.0 precision = 0.0
+Class 13.0 recall = 0.0
+Class 13.0 F1 Measure = 0.0
+Class 14.0 precision = 0.0
+Class 14.0 recall = 0.0
+Class 14.0 F1 Measure = 0.0
+Class 15.0 precision = 0.0
+Class 15.0 recall = 0.0
+Class 15.0 F1 Measure = 0.0
